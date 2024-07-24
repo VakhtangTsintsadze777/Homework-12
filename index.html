@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +13,97 @@
     <link rel="stylesheet" href="css/mobile.css">
 
 </head>
+
 <body>
     <div class="container">
-        <form action="">
+
+        <header>
+            <a href="index.html">
+            <img src="images/logo plant.svg" alt="">
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="first_li_a">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="index.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="buttons">
+                <button class="log_in">LOG IN</button>
+                <button class="fa_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+
+
+        </header>
+        <main>
+
             <section class="section1">
-                <input type="text">
+            <h2>CONTACT US</h2>
+
+                <article>
+                    <form method="get">
+                        <input type="text" placeholder="Name" class="name_input">
+                        <input type="text" placeholder="Email" class="email_input">
+                    </form>
+                    <!-- <div class="article_div"> -->
+                        <form action="" class="form2">
+                        <h3>I have a delivery question about my order</h3>
+
+                            <div class="radio_block1">
+                                <input type="radio">
+
+                                <label for="I did not receive my order" class="label1">I did not receive my order</label>
+                            </div>
+                            <div class="radio_block2">
+                                <input type="radio">
+
+                                <label class="label1"  for="My order is incorrect or arrived damaged">My order is incorrect or arrived damaged</label>
+                            </div>
+                            <div class="radio_block3">
+                                <input type="radio" >
+
+                                <label for="Cancel my order" class="label1">Cancel my order</label>
+                            </div>
+                            <div class="radio_block4">
+                                <input type="radio">
+
+                                <label for="Change my shipping address" class="label1">Change my shipping address</label>
+                            </div>
+
+                            <form action="" class="form3">
+                                <label for="" class="label2">Please provide more details below.</label>
+                                <input type="text" class="message_input">
+                            </form>
+
+                            <div class="check_div">
+                                
+                            </div>
+
+                    <button type="submit">SEND</button>
+
+                        </form>
+                        
+                        
+
+                    <!-- </div> -->
+                    <!-- <button type="submit">SEND</button> -->
+                </article>
+
+
             </section>
-        </form>
+        </main>
+
+
     </div>
 </body>
+
 </html>
