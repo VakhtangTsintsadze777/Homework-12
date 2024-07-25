@@ -16,11 +16,12 @@
 
 <body>
     <div class="container">
-
+        <!-- header -->
         <header>
             <a href="index.html">
-            <img src="images/logo plant.svg" alt="">
+                <img src="images/logo plant.svg" alt="">
             </a>
+            <!-- nav -->
             <nav>
                 <ul>
                     <li>
@@ -44,10 +45,11 @@
 
 
         </header>
+        <!-- main -->
         <main>
-
+            <!-- section1 -->
             <section class="section1">
-            <h2>CONTACT US</h2>
+                <h2>CONTACT US</h2>
 
                 <article>
                     <form method="get">
@@ -55,44 +57,48 @@
                         <input type="text" placeholder="Email" class="email_input">
                     </form>
                     <!-- <div class="article_div"> -->
-                        <form action="" class="form2">
+                    <form action="" class="form2">
                         <h3>I have a delivery question about my order</h3>
 
-                            <div class="radio_block1">
-                                <input type="radio">
+                        <div class="radio_block1">
+                            <input type="radio" id="radio_style" name="radio_name" value="I did not receive my order">
 
-                                <label for="I did not receive my order" class="label1">I did not receive my order</label>
-                            </div>
-                            <div class="radio_block2">
-                                <input type="radio">
+                            <label for="I did not receive my order" class="label1">I did not receive my order</label>
+                        </div>
+                        <div class="radio_block2">
+                            <input type="radio" id="radio_style" name="radio_name"
+                                value="My order is incorrect or arrived damaged">
 
-                                <label class="label1"  for="My order is incorrect or arrived damaged">My order is incorrect or arrived damaged</label>
-                            </div>
-                            <div class="radio_block3">
-                                <input type="radio" >
+                            <label class="label1" for="My order is incorrect or arrived damaged">My order is incorrect
+                                or arrived damaged</label>
+                        </div>
+                        <div class="radio_block3">
+                            <input type="radio" id="radio_style" name="radio_name" value="Cancel my order">
 
-                                <label for="Cancel my order" class="label1">Cancel my order</label>
-                            </div>
-                            <div class="radio_block4">
-                                <input type="radio">
+                            <label for="Cancel my order" class="label1">Cancel my order</label>
+                        </div>
+                        <div class="radio_block4">
+                            <input type="radio" id="radio_style" name="radio_name" value="Change my shipping address">
 
-                                <label for="Change my shipping address" class="label1">Change my shipping address</label>
-                            </div>
+                            <label for="Change my shipping address" class="label1">Change my shipping address</label>
+                        </div>
 
-                            <form action="" class="form3">
-                                <label for="" class="label2">Please provide more details below.</label>
-                                <input type="text" class="message_input">
-                            </form>
-
-                            <div class="check_div">
-                                
-                            </div>
-
-                    <button type="submit">SEND</button>
-
+                        <form action="" class="form3">
+                            <label for="" class="label2">Please provide more details below.</label>
+                            <textarea name="Please provide more details below" id="textarea"
+                                placeholder="Message"></textarea>
                         </form>
-                        
-                        
+
+                        <div class="check_div">
+
+                        </div>
+
+                        <button type="submit" class="submit_button">SEND</button>
+
+
+                    </form>
+
+
 
                     <!-- </div> -->
                     <!-- <button type="submit">SEND</button> -->
