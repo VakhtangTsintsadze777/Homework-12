@@ -6,7 +6,8 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+/* 1200px - 769px */
+@media screen and (max-width: 1200px) and (min-width: 769px) {
     main {
         padding: 64px 160px;
     }
@@ -23,5 +24,9 @@
     .submit_button {
         font-size: 28px;
         height: 58px;
+    }
+
+    .name_input {
+        margin-right: 10px;
     }
 }

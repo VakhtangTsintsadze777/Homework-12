@@ -1,6 +1,5 @@
 /* 768px - 481px */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
     main {
         padding: 48px 80px;
     }
