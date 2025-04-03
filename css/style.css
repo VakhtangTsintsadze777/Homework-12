@@ -83,9 +83,10 @@ a:hover, .active {
            /* main */
 main {
     height: 100%;
-    background-image: url(../images/Rectangle\ 3\ 2.png);
+    background-image: url('../images/Rectangle\ 3\ 2.png');
+    background-size: cover;
+    background-position: center;
     padding: 64px 260px;
-
 }
             /* section1 */
 .section1 {
