@@ -5,3 +5,23 @@
         margin-right: 10px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    main {
+        padding: 64px 160px;
+    }
+
+    .section1 {
+        padding: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+
+    .submit_button {
+        font-size: 28px;
+        height: 58px;
+    }
+}

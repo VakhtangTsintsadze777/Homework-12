@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/f63f0ab372.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -25,13 +25,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html" class="first_li_a">HOME</a>
+                        <a href="index.html">HOME</a>
                     </li>
                     <li>
                         <a href="index.html">ABOUT</a>
                     </li>
                     <li>
-                        <a href="index.html">CONTACT</a>
+                        <a href="index.html" class="active">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -52,56 +52,40 @@
                 <h2>CONTACT US</h2>
 
                 <article>
-                    <form method="get">
-                        <input type="text" placeholder="Name" class="name_input">
-                        <input type="text" placeholder="Email" class="email_input">
-                    </form>
-                    <!-- <div class="article_div"> -->
-                    <form action="" class="form2">
+                    <form method="get" action="index.html" class="contact_form">
+                        <div class="form1">
+                            <input type="text" name="name" placeholder="Name" class="name_input">
+                            <input type="email" name="email" placeholder="Email" class="email_input" required>
+                        </div>
+
                         <h3>I have a delivery question about my order</h3>
 
-                        <div class="radio_block1">
-                            <input type="radio" id="radio_style" name="radio_name" value="I did not receive my order">
+                        <section>
+                            <div class="radio_block1">
+                                <input type="radio" id="not_received" name="question_type" value="not_received">
+                                <label for="not_received" class="label1">I did not receive my order</label>
+                            </div>
+                            <div class="radio_block2">
+                                <input type="radio" id="damaged" name="question_type" value="damaged">
+                                <label class="label1" for="damaged">My order is incorrect or arrived damaged</label>
+                            </div>
+                            <div class="radio_block3">
+                                <input type="radio" id="cancel" name="question_type" value="cancel">
+                                <label for="cancel" class="label1">Cancel my order</label>
+                            </div>
+                            <div class="radio_block4">
+                                <input type="radio" id="change_address" name="question_type" value="change_address">
+                                <label for="change_address" class="label1">Change my shipping address</label>
+                            </div>
+                        </section>
 
-                            <label for="I did not receive my order" class="label1">I did not receive my order</label>
-                        </div>
-                        <div class="radio_block2">
-                            <input type="radio" id="radio_style" name="radio_name"
-                                value="My order is incorrect or arrived damaged">
-
-                            <label class="label1" for="My order is incorrect or arrived damaged">My order is incorrect
-                                or arrived damaged</label>
-                        </div>
-                        <div class="radio_block3">
-                            <input type="radio" id="radio_style" name="radio_name" value="Cancel my order">
-
-                            <label for="Cancel my order" class="label1">Cancel my order</label>
-                        </div>
-                        <div class="radio_block4">
-                            <input type="radio" id="radio_style" name="radio_name" value="Change my shipping address">
-
-                            <label for="Change my shipping address" class="label1">Change my shipping address</label>
-                        </div>
-
-                        <form action="" class="form3">
-                            <label for="" class="label2">Please provide more details below.</label>
-                            <textarea name="Please provide more details below" id="textarea"
-                                placeholder="Message"></textarea>
-                        </form>
-
-                        <div class="check_div">
-
+                        <div class="message_section">
+                            <label for="message" class="label2">Please provide more details below.</label>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
                         </div>
 
                         <button type="submit" class="submit_button">SEND</button>
-
-
                     </form>
-
-
-
-                    <!-- </div> -->
-                    <!-- <button type="submit">SEND</button> -->
                 </article>
 
 

@@ -1,1 +1,64 @@
 /* 480px - 320px */
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 32px 20px;
+    }
+
+    .section1 {
+        padding: 24px 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 32px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .submit_button {
+        font-size: 20px;
+        height: 48px;
+        max-width: 160px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .buttons {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .log_in {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .fa_cart {
+        width: 48px;
+    }
+
+    #message {
+        height: 120px;
+    }
+
+    .label1 {
+        font-size: 14px;
+    }
+}

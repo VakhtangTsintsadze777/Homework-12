@@ -1,1 +1,40 @@
 /* 768px - 481px */
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 48px 80px;
+    }
+
+    .section1 {
+        padding: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+        letter-spacing: 3px;
+    }
+
+    .form1 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .name_input, .email_input {
+        width: 100%;
+    }
+
+    .submit_button {
+        font-size: 24px;
+        height: 52px;
+        max-width: 180px;
+    }
+
+    ul {
+        column-gap: 50px;
+    }
+
+    header {
+        padding: 24px;
+    }
+}
